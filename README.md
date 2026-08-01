@@ -3,6 +3,7 @@
  A simple calculator build using Python that performs basic arithmetic operations.
 
  #Features
+ <BR>
   [] Addition
   <BR>
   [] Subtraction

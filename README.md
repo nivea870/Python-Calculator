@@ -4,10 +4,15 @@
 
  #Features
   [] Addition
+  <BR>
   [] Subtraction
+  <BR>
   [] Muiltiplication
+  <BR>
   [] Division
+  <BR>
   [] Error handling for invalid inputs
+  <BR>
   [] Division by zero protection
 
   #Technologies Used

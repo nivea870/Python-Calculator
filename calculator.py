@@ -1,26 +1,25 @@
-while True:
+try:
     num1 = float(input("Enter first number: "))
-    operator = input("Enter operator (+, -, *, /): ")
     num2 = float(input("Enter second number: "))
+    operator = input("Enter operator (+, -, *, /): ")
+   
 
     if operator == "+":
-        result = num1 + num2
+        print("Result:", num1 + num2)
     elif operator == "-":
-        result = num1 - num2
+        print("Result:", num1 - num2) 
     elif operator == "*":
-        result = num1 * num2
+        print("Result:", num1 * num2)
     elif operator == "/":
-        if num2 != 0:
-            result = num1 / num2
-        else:
-            result = "Cannot divide by zero"
+       if num2 != 0:
+           print("Result:", num1 / num2)
+       else:
+           print("Error: Division by zero is not allowed.")
     else:
-        result = "Invalid operator"
-
-    print("Result:", result)
-
-    again = input("Do you want to calculate again? (yes/no): ")
+        print("Error: Invalid operator. Please use +,-,*, or /.")
+except ValueError:
+    print("Error: Please enter valid numbers.")
+        
    
-    if again.lower() != "yes":
-        print("Thank you for using the calculator!")
-        break
+        
+        
